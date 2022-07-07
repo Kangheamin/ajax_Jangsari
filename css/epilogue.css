@@ -1,0 +1,33 @@
+.frame {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+   
+}
+
+.frame .epilogue_box {
+    width: 100%;
+
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.frame .epilogue_box .txt_part {
+    width: calc(60% - 20px);
+    margin: 0 10px;
+    /* background-color: #afa; */
+    display: flex;
+
+    font-size: 18px;
+    color: #1f232f;
+    text-align: center;
+}
+
+@media (max-width: 769px) {
+    .frame{
+        width: 100%;
+    }
+    
+}
